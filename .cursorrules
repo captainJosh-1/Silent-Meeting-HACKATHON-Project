@@ -1,0 +1,5 @@
+Same rules as CLAUDE.md in this repo — read SPEC.md, STACK.md, API_CONTRACT.md
+and PROGRESS.md first (in that order), commit often with clear messages, update
+PROGRESS.md after meaningful changes, stay within your assigned folder
+(/frontend or /backend), pull before pushing, keep API_CONTRACT.md in sync
+if the API shape changes, and ask before big structural/dependency changes.
