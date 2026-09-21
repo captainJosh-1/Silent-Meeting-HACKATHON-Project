@@ -18,7 +18,7 @@ for now only i will do whole project
 - [x] Webcam capture working in Next.js page
 - [x] MediaPipe Hands wired up, landmarks drawn live on screen
 - [x] MediaPipe FaceMesh wired up, mouth landmarks drawn live on screen
-- [ ] DTW matching function written + tested with dummy data (**do this
+- [x] DTW matching function written + tested with dummy data (**do this
       early — it's the riskiest part, confirm it works before building
       UI around it**)
 - [ ] "Record a command" flow (demonstrate 3–5x, save template + label)
@@ -34,9 +34,9 @@ for now only i will do whole project
 - [ ] Test full demo flow end to end, on the actual demo laptop/webcam
 
 ## Right now
-- **Working on:** DTW matching function with dummy data (next task)
+- **Working on:** "Record a command" flow (next task)
 - **Blocked on:** nothing
-- **Next step:** implement DTW utility and test with dummy sequences
+- **Next step:** implement recording UI to capture 3-5 gesture demonstrations and save as templates
 
 ## Decisions made (don't redebate)
 - Hands + lips only, no full lip-reading (see SPEC.md scope).
