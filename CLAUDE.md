@@ -6,12 +6,16 @@
    suggest a different stack or re-scope the project — it's already
    decided.
 
-2. **Commit often.** After every meaningful, working change:
-   - `git add .`
-   - `git commit -m "short clear message"`
-   - Don't commit broken code. If mid-change and stopping, use a `wip:`
-     prefix.
-
+2. **Never commit automatically.** When a feature or fix seems done:
+   - Say clearly what you built/changed and how to test it.
+   - Wait for the user to actually run it and confirm it works.
+   - Only after they say it's confirmed working, run:
+     - `git add .`
+     - `git commit -m "short clear message describing what now works"`
+   - If the user says it's still broken, keep iterating — don't commit
+     yet, even a `wip:` commit, unless they ask you to save a checkpoint
+     mid-debugging.
+     
 3. **Update PROGRESS.md** when you finish a task or hit a blocker — check
    off items in the task list, update "Right now". Keep it short.
 
