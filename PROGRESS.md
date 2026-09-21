@@ -15,8 +15,8 @@ for now only i will do whole project
 *(fill in — or same person for both if solo)*
 
 ## Task list (build in this order — riskiest parts first)
-- [ ] Webcam capture working in Next.js page
-- [ ] MediaPipe Hands wired up, landmarks drawn live on screen
+- [x] Webcam capture working in Next.js page
+- [x] MediaPipe Hands wired up, landmarks drawn live on screen
 - [ ] MediaPipe FaceMesh wired up, mouth landmarks drawn live on screen
 - [ ] DTW matching function written + tested with dummy data (**do this
       early — it's the riskiest part, confirm it works before building
@@ -34,9 +34,9 @@ for now only i will do whole project
 - [ ] Test full demo flow end to end, on the actual demo laptop/webcam
 
 ## Right now
-- **Working on:** Webcam capture + MediaPipe Hands (next task)
-- **Blocked on:** waiting for HandTracker.jsx starting component
-- **Next step:** implement webcam capture with MediaPipe Hands landmarks drawn live
+- **Working on:** MediaPipe FaceMesh for lip tracking (next task)
+- **Blocked on:** nothing
+- **Next step:** implement FaceMeshTracker component for live mouth landmark detection
 
 ## Decisions made (don't redebate)
 - Hands + lips only, no full lip-reading (see SPEC.md scope).
