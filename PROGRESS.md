@@ -34,10 +34,9 @@ for now only i will do whole project
 - [ ] Test full demo flow end to end, on the actual demo laptop/webcam
 
 ## Right now
-- **Working on:** not started yet
-- **Blocked on:** nothing
-- **Next step:** set up Next.js + FastAPI projects, confirm they talk to
-  each other (basic fetch call, no real logic yet)
+- **Working on:** Webcam capture + MediaPipe Hands (next task)
+- **Blocked on:** waiting for HandTracker.jsx starting component
+- **Next step:** implement webcam capture with MediaPipe Hands landmarks drawn live
 
 ## Decisions made (don't redebate)
 - Hands + lips only, no full lip-reading (see SPEC.md scope).
